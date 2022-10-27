@@ -2,5 +2,6 @@
 -- following lvim.plugins table
 lvim.plugins = {
   'tpope/vim-surround',
-  'nvim-telescope/telescope-fzf-native.nvim'
+  'mfussenegger/nvim-dap-python',
+  'theHamsta/nvim-dap-virtual-text',
 }

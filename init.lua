@@ -11,3 +11,5 @@ require('yl_config.keymapping')
 -- config telescope-fzf-native.vim
 require('yl_config.yl-telescope')
 
+-- config nvim-dap (python and virtual text)
+require('yl_config.yl-dap')
