@@ -13,3 +13,6 @@ require('yl_config.yl-telescope')
 
 -- config nvim-dap (python and virtual text)
 require('yl_config.yl-dap')
+
+-- config lsp 
+require('yl_config.yl-lsp')
