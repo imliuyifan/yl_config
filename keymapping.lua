@@ -2,6 +2,9 @@
 lvim.keys.insert_mode["jk"] = "<esc>"
 lvim.keys.command_mode["jk"] = "<esc>"
 
+lvim.keys.normal_mode["<S-l>"] = ":bnext<CR>"
+lvim.keys.normal_mode["<S-h>"] = ":bprevious<CR>"
+
 -- map a group of keys
 lvim.builtin.which_key.mappings["z"] ={
   name = "YL find",
