@@ -16,3 +16,12 @@ require('yl_config.yl-dap')
 
 -- config lsp 
 require('yl_config.yl-lsp')
+
+-- config github-copilot 
+-- require('yl_config.yl-copilot')
+require('yl_config.test-copilot')
+
+require('yl_config.yl-vim-oscyank')
+
+-- -- Use the system clipboard for unnamed register
+vim.opt.clipboard = "unnamedplus"

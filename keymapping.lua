@@ -16,3 +16,11 @@ lvim.builtin.which_key.mappings["z"] ={
   l = {"<cmd>Telescope live_grep<cr>", "Live grep"},
   s = {":Telescope grep_string search=", "Static grep"},
 }
+
+-- map ctrl-r, ctrl-l as send to term
+-- toggleterm.nvim src code located at: 
+-- /home/yifan/.local/share/lunarvim/site/pack/packer/opt/toggleterm.nvim
+-- line: 383
+lvim.keys.normal_mode["<C-r><C-l>"] = "<cmd>ToggleTermSendCurrentLine<CR>"
+lvim.keys.visual_block_mode["<C-r><C-l>"] = ":'<,'>ToggleTermSendVisualLinesNoTrimWs<CR>"
+
